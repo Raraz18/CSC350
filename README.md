@@ -1,2 +1,3 @@
-# CSC350
-Innovative Web Development 
+# CSC350 Repository
+
+Innovative Web Development
