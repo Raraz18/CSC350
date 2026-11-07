@@ -1,0 +1,68 @@
+/* Body: styling for font, background golor, text-color, and spacing */
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(#997737, rgb(255, 255, 255));
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 75px;
+}
+
+/* Header font style and spacing */
+
+header {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  padding: 35px;
+}
+
+/*
+Styles the navigation bar font, 
+colors, round borders, spacing, and border shadow
+*/
+
+.navbar {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  margin: 5px 10px;
+  box-shadow:
+    0 0 15px rgba(206, 170, 153, 0.966),
+    0 0 35px rgba(20, 20, 18, 0.822);
+  font-size: 18px;
+}
+
+/* styles the brand name MOOZIK on the nav bar: size, spacing, and shadow */
+
+.navbar-brand {
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding: 0 1%;
+  text-shadow: 0 0 12px #81682a;
+}
+
+/*style for the footer to match the nav bar */
+
+footer {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  margin: 5px 10px;
+  box-shadow:
+    0 0 15px rgb(163, 136, 125),
+    0 0 35px rgba(26, 25, 21, 0.925);
+  text-align: center;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: black;
+}
+
+/* style for footer content: adjusts the spacing */
+
+footer p {
+  margin: 5px;
+}
