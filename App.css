@@ -1,0 +1,45 @@
+/*
+Name: Ronghui Zhang
+Date: 11/15/2026
+Assignment: Week 3 - React Component
+*/
+
+/* styling for main page */
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(98, 233, 188, 0.884);
+  min-height: 100vh;
+}
+
+/* header styling */
+
+.container h1 {
+  margin-bottom: 60px;
+}
+
+/* arranges images in 2x2 grid */
+
+.imgView {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  gap: 45px;
+}
+
+/* image styling */
+
+.character-img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 70px;
+  border: 5px solid rgb(247, 214, 105);
+}
+
+/* character name styling */
+
+.character-name {
+  color: black;
+  font-weight: bold;
+}
